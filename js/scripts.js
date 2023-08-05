@@ -50,4 +50,16 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
+
+    // Reset form
+    var form = document.getElementById("contactForm");
+    var popup = document.getElementsByClassName("ratufa-popup-close");
+    setInterval(resetForm, 10000);
+
+    function resetForm() {
+        if (window.getComputedStyle(popup[0]).visibility !== "hidden") {
+            form.reset();
+        }
+    }
+
 });
