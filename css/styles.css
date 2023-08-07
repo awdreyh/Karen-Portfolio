@@ -11059,3 +11059,18 @@ html {
   background-color: #003366;
   color: #fff;
 }
+
+.sidebar {
+  list-style-type: none;
+  color: #fff;
+}
+
+#sidebar {
+  float: left;
+  height: 100%;
+  position: sticky;
+}
+
+#content {
+  float: left;
+}
