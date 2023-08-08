@@ -135,21 +135,26 @@ html {
     background: #3399ff;
   }
   #mainNav.navbar-shrink {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    position:fixed;
-    top:1rem;
+    /* padding-top: 0.5rem;
+    padding-bottom: 0.5rem; */
+    position:fixed;  
+    left:0;
+
     .container{
-      display:flex;
+    
       flex-direction:column;
+
       ul{
-        padding-left:0;
+        padding-left:0!important;
+       
       }
     }
   }
-  #mainNav.navbar-shrink .navbar-brand {
-/*     font-size: 1.5em; */
+  #mainNav.navbar-shrink ul{
+
+    align-self: flex-start;
   }
+
 }
 .form-floating input.form-control,
 .form-floating textarea.form-control {
