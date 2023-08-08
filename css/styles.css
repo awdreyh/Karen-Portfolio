@@ -148,7 +148,7 @@ html {
     }
   }
   #mainNav.navbar-shrink .navbar-brand {
-    font-size: 1.5em;
+/*     font-size: 1.5em; */
   }
 }
 .form-floating input.form-control,
