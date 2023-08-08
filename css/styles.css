@@ -137,6 +137,12 @@ html {
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    position:fixed;
+    top:120px;
+    .container{
+      display:flex;
+      flex-direction:column;
+    }
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
